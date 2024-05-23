@@ -8,7 +8,6 @@ on:
 jobs:
   release_package:
     if: ${{ startsWith(github.ref, 'refs/tags/v')}}
-    needs: build
     runs-on: ubuntu-latest
 
     permissions:
