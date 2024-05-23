@@ -1,7 +1,6 @@
 FROM alpine:latest
 
 # Copy only the required directories and files
-COPY ./configs /configs
 COPY main ./main
 
 
