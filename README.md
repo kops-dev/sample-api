@@ -7,4 +7,4 @@
 go run main.go
 ```
 
-- This command will compile and execute the main.go file, allowing you to see the `{"data":"Hello GoFr!"}` message if we hit `http://localhost:8000/hello`.
+- This command will compile and execute the main.go file, allowing you to see the `{"data":"Hello! Welcome to gofr-app"}` message if we hit `http://localhost:8000/hello`.
