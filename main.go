@@ -24,7 +24,7 @@ func main() {
 	})
 
 	app.GET("/fatal", func(c *gofr.Context) (interface{}, error) {
-		c.Logger.Fatal("sample warn log")
+		c.Logger.Error("sample warn log")
 
 		return nil, nil
 	})
